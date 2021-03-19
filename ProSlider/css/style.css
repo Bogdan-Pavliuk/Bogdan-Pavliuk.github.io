@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(207, 207, 207, 0.397);
+}
+
+.slider_photos{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.slider_photo{
+    position: absolute;
+}
+
+.slider_photo.first{
+    left: 0;
+}
+
+.slider_photo img{
+    width: 250px;
+    height: 350px;
+}
+
+.slider_btns{
+    padding: 5px 10px;
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_btn{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(133, 93, 49);
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.slider_btn:hover{
+    background-color: rgb(133, 93, 49);
+}
+
+.slider_btn.des{
+    cursor: default;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(124, 124, 124);
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.slider_btn.des:hover{
+    background-color: transparent;
+}
+
+
+
+
+/* slider count */
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(53, 53, 53);
+}
+
+
+.slider_count{
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    display: flex;
+
+}
+
+.slider_count-inp{
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.slider_count-btn{
+    margin: auto 0;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.slider-inp{
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(124, 124, 124);
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.slider-btn{
+    font-size: 20px;
+    width: 70px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid rgb(124, 124, 124);
+    color: rgb(124, 124, 124);
+    border-radius: 10px;
+    outline: none;
+}
+
+.slider-inp:hover,
+.slider-btn:hover{
+    border: 3px solid rgb(80, 80, 80);
+    color: rgb(80, 80, 80);
+}
