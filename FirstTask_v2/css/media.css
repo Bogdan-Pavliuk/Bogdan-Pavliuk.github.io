@@ -1,0 +1,381 @@
+@media(max-width: 1170px){
+    .project_menu,
+    .responce_list{
+        display: block;
+    }
+    .project_menu-item,
+    .responce_list-item{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .project_menu-img{
+        margin-bottom: 10px;
+    }
+    .project_menu-title{
+        margin-bottom: 5px;
+    }
+    .project_menu-title::before{
+        top: -7px;
+    }
+    .responce_list-text{
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width: 1150px){
+    .header_top-logo{
+        margin-left: 15px;
+    }
+    .header_top-menu{
+        margin-right: 15px;
+    }
+    .header_years{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .request_inner,
+    .responce_list{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .info_colection-item{
+        width: 300px;
+        height: 220px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .question_list{
+        margin-left: 20px;
+    }
+    .partners_img{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .contacts_list{
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+    }
+    .contacts_item{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media(max-width: 950px){
+    .info_colection{
+        justify-content: center;
+    }
+    .contacts_item{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 800px){
+    .header{
+        height: 550px;
+        margin-bottom: 150px;
+    }
+    .header_title{
+        font-size: 46px;
+        line-height: 68px;
+    }
+    .header_post-title{
+        font-size: 10px;
+        line-height: 19px;
+    }
+    .header_years-num{
+        font-size: 52px;
+        line-height: 74px;
+    }
+    .header_years-text{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .header_years{
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    .header_years-item{
+        width: 100px;
+    }
+    .header_text{
+        margin-bottom: 100px;
+    }
+    .projects{
+        margin-bottom: 80px;
+    }
+    .projects_title,
+    .question_title,
+    .partners_title,
+    .responce_title{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .project_menu-img{
+        margin-bottom: 30px;
+    }
+    .project_menu-title{
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .project_menu-title::before{
+        width: 35px;
+        height: 2px;
+        top: -10px;
+    }
+    .project_menu-text{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .request_text{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .request_text span{
+        margin-top: 5px;
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .request_btn{
+        height: 39px;
+        padding-right: 15px;
+        padding-left: 47px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .request_btn::after{
+        left: 20px;
+    }
+    .photo{
+        display: none;
+    }
+    .partners{
+        padding: 50px 0;
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width: 650px){
+    .info_colection-item{
+        width: 350px;
+        height: 250px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .info{
+        margin-bottom: 50px; 
+    }
+    .questions,
+    .partners{
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width: 620px){
+    .request_text{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .request_text span{
+        margin-top: 3px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .question_list-pretitle,
+    .responce_list-autor{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 26px;
+    }
+    .question_list-pretitle.hov{
+        margin-bottom: 16px;
+    }
+    .question_list-text{
+        max-width: 430px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #999999;
+    }
+    .question_list-text.hov{
+        margin-bottom: 26px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 580px){
+    .header{
+        height: 450px;
+        margin-bottom: 100px;
+    }
+    .header_title,
+    .info_title{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .header_years-num{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .header_years-text,
+    .info_colection-text{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header_years-text span{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .header_years{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .projects{
+        margin-bottom: 20px;
+    }
+    .projects_title{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .request,
+    .responce{
+        margin-bottom: 50px;
+    }
+    .request_btn{
+        height: 30px;
+        padding-right: 15px;
+        padding-left: 47px;
+        font-size: 10px;
+    }
+    .request_text span{
+        margin-bottom: 10px;
+    }
+    .request_inner{
+        display: block;
+    }
+    .info_title{
+        margin-bottom: 0;
+    }
+    .footer{
+        padding: 13px 0;
+    }
+    .footer_link{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .footer_inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .header{
+        height: 425px;
+        margin-bottom: 80px;
+    }
+    .header_top-logo img,
+    .header_top-menu{
+        height: 30px;
+        width: 30px;
+    }
+    .header_top-stick,
+    .header_top-stick::after,
+    .header_top-stick::before{
+        width: 11px;
+        height: 2px;
+    }
+    .header_top-stick::before{
+        top: -4px;
+    }
+    .header_top-stick::after{
+        bottom: -4px;
+    }
+    .header_title{
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .header_years-num{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .header_years-text{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .header_years-text span{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .projects_title,
+    .info_title,
+    .question_title,
+    .responce_title,
+    .contacts_item-title,
+    .contacts_item-text{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+    .project_menu-item{
+        text-align: center;
+    }
+    .project_menu-img{
+        max-width: 70%;
+        margin-bottom: 10px;
+    }
+    .project_menu-text{
+        margin: 0 auto;
+       width: 70%;
+    }
+    .project_menu-title::before{
+        display: none;
+    }
+    .request_text span{
+        font-size: 10px;
+    }
+    .info_colection-item{
+        width: 300px;
+        height: 220px;
+    }
+    .info_title{
+        margin-bottom: 0;
+    }
+    .partners_title{
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .responce_list-text{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .responce_list-autor{
+        margin: 0 auto;
+        text-align: center;
+        width: 60%;
+    }
+    .contacts_item{
+        width: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .partners_list{
+        display: block;
+        text-align: center;
+    }
+    .partners_img{
+        padding-top: 40px;
+    }
+}
+
