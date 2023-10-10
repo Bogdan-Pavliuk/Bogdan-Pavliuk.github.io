@@ -145,7 +145,7 @@ Error generating stack: `+o.message+`
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-`,F0=({id:e,name:t,image:n,desc:r})=>I.jsxs(C0,{onClick:()=>console.log(e),children:[I.jsx(M0,{src:n||"*",alt:"name"}),I.jsx(D0,{children:t}),I.jsx(A0,{children:r}),I.jsx(j0,{children:"Buy"})]}),At="/assets/testitem-a6c307f5.webp",U0=()=>{const[e]=Xt.useState([{id:1,name:"Shorts",image:At,desc:`Lorem, ipsum dolor sit amet consectetur
+`,F0=({id:e,name:t,image:n,desc:r})=>I.jsxs(C0,{onClick:()=>console.log(e),children:[I.jsx(M0,{src:n||"*",alt:"name"}),I.jsx(D0,{children:t}),I.jsx(A0,{children:r}),I.jsx(j0,{children:"Buy"})]}),At="./testitem-a6c307f5.webp",U0=()=>{const[e]=Xt.useState([{id:1,name:"Shorts",image:At,desc:`Lorem, ipsum dolor sit amet consectetur
     adipisicing elit. Ab quas eaque velit perspiciatis?
     Voluptates architecto quo a fugit tempore delectus
     modi quam, asperiores dolorum porro, reprehenderit 
